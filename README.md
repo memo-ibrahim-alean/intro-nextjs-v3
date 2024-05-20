@@ -1,11 +1,14 @@
 [![Frontend Masters](./full.png)][fem]
 
-This is a companion repo for the [Introduction to Next.js, v3][course] course on [Frontend Masters][fem]. This application is built from scratch throughout the course. The `main` branch contains a final version of the application similar to the one built in the course.
+This is a companion repo for the [Introduction to Next.js, v3][course] course on [Frontend Masters][fem]. This application is built from scratch throughout the course.
 
 ## Slides
 Slides for the course are available [on Notion][slides]
 
-
+### Install Dependencies
+```bash
+npx create-next-app@latest intro-v3-app
+```
 
 [fem]: https://frontendmasters.com
 [course]: https://frontendmasters.com/courses/next-js-v3/
