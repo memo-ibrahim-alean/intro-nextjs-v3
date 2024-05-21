@@ -1,7 +1,6 @@
-
 function TodosPage() {
   return (
-    <div>todos Page</div>
+    <div>Todos Page</div>
   )
 }
 
