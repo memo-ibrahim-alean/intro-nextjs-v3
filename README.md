@@ -18,6 +18,8 @@ npm i @prisma/client@latest
 npx prisma init --datasource-provider sqlite
 
 npx prisma migrate dev --name init
+
+npx prisma studio
 ```
 
 [fem]: https://frontendmasters.com

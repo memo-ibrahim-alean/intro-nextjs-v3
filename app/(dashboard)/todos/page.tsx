@@ -9,7 +9,7 @@ const getData = async () => {
 
 const TodosPage = async () => {
   const todos = await getData()
-  console.log(todos);
+  // console.log(todos);
   return (
     <div>
       <TodoList todos={todos} />
