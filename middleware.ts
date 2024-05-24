@@ -1,11 +1,11 @@
-import { NextResponse } from 'next/server'
+// import { NextResponse } from 'next/server'
 
-const middleware = (request) => {
-  return NextResponse.redirect(new URL('/', request.url))
-}
+// const middleware = (request) => {
+//   return NextResponse.redirect(new URL('/', request.url))
+// }
 
-export default middleware
+// export default middleware
 
-export const config = {
-  matcher: ['/todos'],
-}
+// export const config = {
+//   matcher: ['/todos'],
+// }
